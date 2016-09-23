@@ -18,4 +18,5 @@ config :my_app, MyApp.Repo,
   username: "postgres",
   password: "postgres",
   database: "my_app_test",
+  hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
