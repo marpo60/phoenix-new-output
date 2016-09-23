@@ -9,9 +9,6 @@ config :my_app, MyApp.Endpoint,
 # Print only warnings and errors during test
 config :logger, level: :warn
 
-# Set a higher stacktrace during test
-config :phoenix, :stacktrace_depth, 20
-
 # Configure your database
 config :my_app, MyApp.Repo,
   adapter: Ecto.Adapters.Postgres,
