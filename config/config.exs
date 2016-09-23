@@ -9,7 +9,7 @@ use Mix.Config
 config :my_app, MyApp.Endpoint,
   url: [host: "localhost"],
   root: Path.dirname(__DIR__),
-  secret_key_base: "6mYxXZOkw5vOHKGy7zmfc1kQsMbOTYKLIeum+/MQvqU0agUQUR2HhGVYWb4bYfLN",
+  secret_key_base: "2twnCyNne7Dsjen4PJXi6WEcglR7Ejw2NvxRhAXyK0Cgnz54fhkre6N4gqC47HbG",
   render_errors: [accepts: ~w(html json)],
   pubsub: [name: MyApp.PubSub,
            adapter: Phoenix.PubSub.PG2]
