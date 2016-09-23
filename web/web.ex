@@ -22,7 +22,7 @@ defmodule MyApp.Web do
 
       import Ecto
       import Ecto.Changeset
-      import Ecto.Query, only: [from: 1, from: 2]
+      import Ecto.Query
     end
   end
 
@@ -32,7 +32,7 @@ defmodule MyApp.Web do
 
       alias MyApp.Repo
       import Ecto
-      import Ecto.Query, only: [from: 1, from: 2]
+      import Ecto.Query
 
       import MyApp.Router.Helpers
       import MyApp.Gettext
@@ -67,7 +67,7 @@ defmodule MyApp.Web do
 
       alias MyApp.Repo
       import Ecto
-      import Ecto.Query, only: [from: 1, from: 2]
+      import Ecto.Query
       import MyApp.Gettext
     end
   end
